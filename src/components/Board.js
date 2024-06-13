@@ -3,8 +3,14 @@ import Square from './Square';
 import "./Board.css";
 
 class Board extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      Squares: Array(9).fill(null)
+    }
+  }
   renderSquare(i) {
-    return <Square value={i} />
+    return <Square value={this.state.Squares[i]} />
   }
   render() {
     return (
