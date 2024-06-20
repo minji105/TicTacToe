@@ -2,11 +2,11 @@
   background-color: #fff;
   border: 1px solid #999;
   font-size: 24px;
-  height: 34px;
+  height: 80px;
   margin-right: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
-  /* display: inline-block;
-  vertical-align: top; */
+  width: 80px;
+  display: inline-block;
+  vertical-align: top;
 }
